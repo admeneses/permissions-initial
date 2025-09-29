@@ -36,11 +36,6 @@
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION",
         "USE_BIOMETRIC",
-        "READ_CONTACTS",
-        "CAMERA",
-        "ACCESS_COARSE_LOCATION",
-        "ACCESS_FINE_LOCATION",
-        "USE_BIOMETRIC",
         "READ_CONTACTS"
       ],
       "package": "com.anonymous.permissionsreactnative"

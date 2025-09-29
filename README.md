@@ -1,4 +1,4 @@
-# 📱 Permissions React Native (Expo) – FIAP
+# Permissions React Native (Expo) – FIAP
 
 Aplicativo de demonstração para aulas de React Native com Expo, cobrindo permissões e recursos comuns:
 
@@ -10,7 +10,7 @@ Aplicativo de demonstração para aulas de React Native com Expo, cobrindo permi
 - Biometria (Face ID / Touch ID)
 - Contatos
 
-## 🚀 Stack
+## Stack
 
 - Expo SDK 54
 - React Navigation (Stack)
@@ -19,11 +19,7 @@ Aplicativo de demonstração para aulas de React Native com Expo, cobrindo permi
 - @expo/react-native-action-sheet, react-native-toast-message
 - react-native-calendars, expo-local-authentication, expo-contacts
 
-## 🎨 Tema
-
-- Paleta FIAP centralizada em `src/theme/colors.ts` para manter consistência visual.
-
-## 🔐 Permissões
+## Permissões
 
 As mensagens e permissões necessárias já estão configuradas em `app.json`.
 
@@ -41,7 +37,7 @@ As mensagens e permissões necessárias já estão configuradas em `app.json`.
   - USE_BIOMETRIC
   - READ_CONTACTS
 
-## 📂 Estrutura (principal)
+## Estrutura (principal)
 
 ```
 permissions-react-native/
@@ -53,7 +49,7 @@ permissions-react-native/
 └── package.json                # Scripts e engines (Node 22+)
 ```
 
-## 🧭 Telas e funcionalidades
+## Telas e funcionalidades
 
 - Home: navegação para todos os demos
 - Câmera: solicita permissão, abre preview e captura foto (botão de shutter)
@@ -64,7 +60,7 @@ permissions-react-native/
 - Biometria: verifica suporte/enrolamento e autentica via `expo-local-authentication`
 - Contatos: solicita permissão, lista contatos (nome, telefone, email)
 
-## ▶️ Como rodar
+## Como rodar
 
 Pré-requisitos: Node 22+, npm e Expo CLI (via npx).
 
@@ -83,13 +79,13 @@ npm start
 npm start -- --clear
 ```
 
-## 🧪 Dicas de teste
+## Dicas de teste
 
 - Câmera/Imagem: teste em dispositivo ou simulador/emulador com câmera/imagens disponíveis
 - Mapa/Localização: permita acesso à localização quando solicitado
 - Biometria: requer dispositivo com Face ID/Touch ID configurado
 - Contatos: permita acesso para listar contatos; em emuladores, você pode precisar adicionar contatos manualmente
 
-## 📄 Licença
+## Licença
 
 Projeto de uso educacional.
